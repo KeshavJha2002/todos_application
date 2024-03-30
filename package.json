@@ -1,0 +1,26 @@
+{
+    "name": "todos_application",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev:tsc": "tsc -w",
+        "dev:server": "nodemon dist/index.js",
+        "build:tsc": "tsc build",
+        "start": "node dist/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "pg": "^8.11.3"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/pg": "^8.11.4"
+    }
+}
