@@ -6,7 +6,7 @@ const pool = new pg.Pool({
     host: process.env.PG_HOST,
     database: process.env.PG_DB,
     password: `${process.env.PG_PASSWORD}`,
-    port: Number(process.env.PG_PORT)
+    port: Number(process.env.PG_PORT)!
 });
 
 // test the connection
